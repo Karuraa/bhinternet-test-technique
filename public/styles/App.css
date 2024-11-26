@@ -1,0 +1,47 @@
+@import "banner.css";
+@import "bootstrap.min.css";
+@import "bootstrap-icons.min.css";
+@import "container.css";
+
+body {
+    overflow-y : scroll;
+    overflow-x : hidden;
+    width : 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.body {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+
+.header-background {
+    background-color: rgb(23, 38, 70);
+}
+
+.sales-site {
+    background-color: rgb(255, 212, 47);
+    box-shadow: 10px 5px 5px rgb(232, 164, 38);
+}
+
+.text-sales {
+    color : rgb(73, 73, 73);
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    margin : 0;
+    gap : 16px    
+}
+
+.styled-li {
+    font-size : 10px;
+}
+
+.nav-active {
+    color: rgb(50, 162, 168);
+}
